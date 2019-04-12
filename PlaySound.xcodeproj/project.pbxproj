@@ -12,6 +12,7 @@
 		02735EBB22605C5D005B0E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02735EB922605C5D005B0E14 /* Main.storyboard */; };
 		02735EBD22605C5E005B0E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02735EBC22605C5E005B0E14 /* Assets.xcassets */; };
 		02735EC022605C5E005B0E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02735EBE22605C5E005B0E14 /* LaunchScreen.storyboard */; };
+		02735ECE22605E83005B0E14 /* AudioFile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02735ECD22605E83005B0E14 /* AudioFile.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		02735EBC22605C5E005B0E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02735EBF22605C5E005B0E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02735EC122605C5E005B0E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02735ECD22605E83005B0E14 /* AudioFile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AudioFile.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		02735EB422605C5D005B0E14 /* PlaySound */ = {
 			isa = PBXGroup;
 			children = (
+				02735ECF22605F08005B0E14 /* Audio */,
 				02735EB522605C5D005B0E14 /* AppDelegate.swift */,
 				02735EB722605C5D005B0E14 /* ViewController.swift */,
 				02735EB922605C5D005B0E14 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				02735EC122605C5E005B0E14 /* Info.plist */,
 			);
 			path = PlaySound;
+			sourceTree = "<group>";
+		};
+		02735ECF22605F08005B0E14 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				02735ECD22605E83005B0E14 /* AudioFile.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02735EC022605C5E005B0E14 /* LaunchScreen.storyboard in Resources */,
+				02735ECE22605E83005B0E14 /* AudioFile.mp3 in Resources */,
 				02735EBD22605C5E005B0E14 /* Assets.xcassets in Resources */,
 				02735EBB22605C5D005B0E14 /* Main.storyboard in Resources */,
 			);
